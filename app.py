@@ -97,18 +97,18 @@ while i<=50000:
     sleep(6)
     driver.find_element_by_xpath("//span[normalize-space()='Log Out']").click()
 
-    sleep(5)
+    sleep(30)
 
 
     driver.get("https://www.facebook.com/")
-    sleep(3)
+    sleep(500)
 
 
 
     email=driver.find_element_by_id("email")
-    email.send_keys("100054592715360")
+    email.send_keys("doniben.dominic")
     password=driver.find_element_by_id("pass")
-    password.send_keys("chicheta")
+    password.send_keys("maxylinks")
     sleep(1)
     login=driver.find_element_by_name("login")
     login.click()
@@ -117,7 +117,7 @@ while i<=50000:
 
 
     
-    sleep(10)
+    sleep(60)
 
     
     
