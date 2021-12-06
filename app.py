@@ -33,9 +33,9 @@ sleep(3)
 
 
 email=driver.find_element_by_id("email")
-email.send_keys("doniben.dominic")
+email.send_keys("100054592715360")
 password=driver.find_element_by_id("pass")
-password.send_keys("maxylinks")
+password.send_keys("chicheta")
 sleep(1)
 login=driver.find_element_by_name("login")
 login.click()
@@ -117,7 +117,7 @@ while i<=50000:
 
 
     
-    sleep(60)
+    sleep(200)
 
     
     
