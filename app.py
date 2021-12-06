@@ -100,18 +100,7 @@ while i<=50000:
     sleep(30)
 
 
-    driver.get("https://www.facebook.com/")
-    sleep(500)
-
-
-
-    email=driver.find_element_by_id("email")
-    email.send_keys("doniben.dominic")
-    password=driver.find_element_by_id("pass")
-    password.send_keys("maxylinks")
-    sleep(1)
-    login=driver.find_element_by_name("login")
-    login.click()
+   
     
 
 
