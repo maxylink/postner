@@ -26,7 +26,6 @@ driver.maximize_window()
 chrome_options = Options()
 chrome_options.add_argument("--disable-notifications")
 
-
 driver.get("https://www.facebook.com/")
 sleep(3)
 
@@ -77,7 +76,7 @@ while i<=50000:
     sleep(2)
     messages = ['Many investors have lost all their investment profits because they don not believe in reality ,\nwhile some lost their major withdrawals to fake companies and many are still loosing till now.\nI am here to introduce you all to the greatest paying and legitimate investment company of our time..I have been receiving my withdrawals automatic and I am so glad to witness the uprising of my daily investment with Zend Cryptos Investments platform.\nBelieve me this is the best platform to invest with now.\nRegister and strat earning like me now.Follow the link now.\nhttp://www.google.com/search?q=site%3Azendforex.com','great investment platform today ']
     for message in messages:
-     element.send_keys(message)
+      element.send_keys(message)
    
     
     
@@ -97,18 +96,28 @@ while i<=50000:
     sleep(6)
     driver.find_element_by_xpath("//span[normalize-space()='Log Out']").click()
 
-    sleep(30)
+    sleep(5)
 
 
-   
+    driver.get("https://www.facebook.com/")
+    sleep(3)
+
+
+
+    email=driver.find_element_by_id("email")
+    email.send_keys("100054592715360")
+    password=driver.find_element_by_id("pass")
+    password.send_keys("chicheta")
+    sleep(1)
+    login=driver.find_element_by_name("login")
+    login.click()
     
 
 
 
     
-    
+    sleep(10)
 
     
-    
+i=i+1  
 
-i=i+1
