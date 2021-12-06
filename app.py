@@ -49,7 +49,7 @@ while i<=50000:
 
 
  groups_links_list = [
-   "https://www.facebook.com/groups/3686706161407106", "https://www.facebook.com/groups/2782001165164383", "https://www.facebook.com/groups/2020733191524486", "https://www.facebook.com/groups/5440056676034888", "https://www.facebook.com/groups/internationalcryptominers", "https://www.facebook.com/groups/1977782575833348", "https://www.facebook.com/groups/753677805258668", "https://www.facebook.com/groups/423287535042518", "https://www.facebook.com/groups/1953339638311954", "https://www.facebook.com/groups/818536955169151", "https://www.facebook.com/groups/755878041998722", "https://www.facebook.com/groups/753677805258668", "https://www.facebook.com/groups/751840511663201", "https://www.facebook.com/groups/316292243440591", "https://www.facebook.com/groups/1088619671559643", "https://www.facebook.com/groups/387055385984329", "https://www.facebook.com/groups/341683990228113", "https://www.facebook.com/groups/716910665175389", "https://www.facebook.com/groups/cryptocurrencybitcoininvestment", "https://www.facebook.com/groups/newsbitcoinworld", "https://www.facebook.com/groups/usabusinessgroupz", "https://www.facebook.com/groups/2782001165164383", "https://www.facebook.com/groups/2438045376224715", "https://www.facebook.com/groups/2020733191524486", "https://www.facebook.com/groups/1893338250702751", "https://www.facebook.com/groups/internationalcryptominers", "https://www.facebook.com/groups/1829098377306709", "https://www.facebook.com/groups/UcoincashIndonesiaRaya", "https://www.facebook.com/groups/1709996879303044", "https://www.facebook.com/groups/1572466832810159", "https://www.facebook.com/groups/bitcoinworldtm", "https://www.facebook.com/groups/1142220402650653", "https://www.facebook.com/groups/binancecom", "https://www.facebook.com/groups/insidecrypto.news", "https://www.facebook.com/groups/germanbtc", "https://www.facebook.com/groups/595862454626204", "https://www.facebook.com/groups/530659007137021", "https://www.facebook.com/groups/1130482460326432", "https://www.facebook.com/groups/1894175397292966", "https://www.facebook.com/groups/bitcoinsUS", "https://www.facebook.com/groups/hyip.raj.2"
+   "https://www.facebook.com/groups/3686706161407106", "https://www.facebook.com/groups/2782001165164383", "https://www.facebook.com/groups/2020733191524486", "https://www.facebook.com/groups/5440056676034888", "https://www.facebook.com/groups/internationalcryptominers", "https://www.facebook.com/groups/1977782575833348", "https://www.facebook.com/groups/753677805258668", "https://www.facebook.com/groups/423287535042518", "https://www.facebook.com/groups/1953339638311954", "https://www.facebook.com/groups/818536955169151", "https://www.facebook.com/groups/755878041998722", "https://www.facebook.com/groups/753677805258668", "https://www.facebook.com/groups/751840511663201", "https://www.facebook.com/groups/316292243440591", "https://www.facebook.com/groups/1088619671559643", "https://www.facebook.com/groups/387055385984329", "https://www.facebook.com/groups/341683990228113", "https://www.facebook.com/groups/716910665175389", "https://www.facebook.com/groups/cryptocurrencybitcoininvestment", "https://www.facebook.com/groups/newsbitcoinworld", "https://www.facebook.com/groups/usabusinessgroupz", "https://www.facebook.com/groups/2782001165164383", "https://www.facebook.com/groups/2438045376224715", "https://www.facebook.com/groups/2020733191524486", "https://www.facebook.com/groups/1893338250702751", "https://www.facebook.com/groups/internationalcryptominers", "https://www.facebook.com/groups/1829098377306709", "https://www.facebook.com/groups/UcoincashIndonesiaRaya", "https://www.facebook.com/groups/1709996879303044", "https://www.facebook.com/groups/1572466832810159", "https://www.facebook.com/groups/bitcoinworldtm", "https://www.facebook.com/groups/1142220402650653", "https://www.facebook.com/groups/binancecom", "https://www.facebook.com/groups/insidecrypto.news", "https://www.facebook.com/groups/germanbtc", "https://www.facebook.com/groups/595862454626204", "https://www.facebook.com/groups/530659007137021", "https://www.facebook.com/groups/1130482460326432", "https://www.facebook.com/groups/1894175397292966", "https://www.facebook.com/groups/hyip.raj.2"
     ]
 
  
@@ -92,7 +92,7 @@ while i<=50000:
     postbutton.click()
     sleep(2)
 
-   
+    
     
 
 
@@ -102,4 +102,3 @@ while i<=50000:
 
     
 i=i+1  
-
