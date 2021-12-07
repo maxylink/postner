@@ -32,7 +32,7 @@ sleep(3)
 
 
 email=driver.find_element_by_id("email")
-email.send_keys("doniben.dominic")
+email.send_keys("100054592715360")
 password=driver.find_element_by_id("pass")
 password.send_keys("chicheta")
 sleep(1)
