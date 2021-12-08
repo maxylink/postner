@@ -90,10 +90,33 @@ while i<=50000:
     postbutton = driver.find_element_by_xpath("//div[@aria-label='Post']")
     sleep(1)
     postbutton.click()
-    sleep(2)
+    sleep(7)
     
-    
-  
+     
+    driver.find_element_by_xpath("//div[@aria-label='Account']//*[name()='svg']").click()
+    sleep(4)
+    driver.find_element_by_xpath("//span[normalize-space()='Log Out']").click()
 
+    sleep(2)
+
+    
+    
+    driver.get("https://facebook.com/")
+    sleep(1)
+
+    email=driver.find_element_by_id("email")
+    email.send_keys("100054592715360")
+    password=driver.find_element_by_id("pass")
+    password.send_keys("chicheta5")
+    sleep(1)
+    login=driver.find_element_by_name("login")
+    login.click()
+    sleep(4)
+
+
+    
+    sleep(1)
+  
+   
     
 i=i+1  
