@@ -117,7 +117,7 @@ while i<=50000:
 
 
     
-    sleep(400)
+    sleep(1)
 
     
 i=i+1  
