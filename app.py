@@ -45,7 +45,7 @@ sleep(4)
 
 i = 1
 
-while i<=500000:
+while i<=50000:
 
 
  groups_links_list = [
@@ -112,7 +112,7 @@ while i<=500000:
       sleep(1)
       login=driver.find_element_by_name("login")
       login.click()
-      sleep(400)
+      sleep(4)
     except NoSuchElementException: 
       sleep(2)
 
