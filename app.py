@@ -113,7 +113,7 @@ while i<=50000:
       sleep(1)
       login=driver.find_element_by_name("login")
       login.click()
-      sleep(4000)
+      sleep(400)
     except NoSuchElementException: 
       sleep(2)
 
