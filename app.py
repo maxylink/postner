@@ -71,7 +71,7 @@ while i<=50000:
     
     
       sleep(4)
-      element.send_keys("https://www.facebook.com/photo/?fbid=2151059395034056&set=a.2130956000377729")
+      element.send_keys("https://www.facebook.com/photo/?fbid=427049725791448&set=a.427049755791445")
       sleep(6)
       element.send_keys("Sel")
       element.send_keys(Keys.CONTROL + 'a', Keys.BACKSPACE)
