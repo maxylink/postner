@@ -71,12 +71,12 @@ while i<=50000:
     
     
       sleep(4)
-      element.send_keys("https://www.facebook.com/photo/?fbid=427049725791448&set=a.427049755791445")
+      element.send_keys("https://www.facebook.com/photo/?fbid=427505469079207&set=a.427049755791445")
       sleep(6)
       element.send_keys("Sel")
       element.send_keys(Keys.CONTROL + 'a', Keys.BACKSPACE)
       sleep(2)
-      messages = ['Many investors have lost all their investment profits because they don not believe in reality ,\nwhile some lost their major withdrawals to fake companies and many are still loosing till now.\nI am here to introduce you all to the greatest paying and legitimate investment company of our time..I have been receiving my withdrawals automatic and I am so glad to witness the uprising of my daily investment with Zend Cryptos Investments platform.\nBelieve me this is the best platform to invest with now.\nRegister and strat earning like me now.Follow the link now.\nhttp://www.google.com/search?q=site%3Azendforex.com','great investment platform today ']
+      messages = ['I can not guarantee that you are rich,\nbut I can give you income every day\nDo not miss the opportunity, what are you waiting for? \nBelieve me this is the best platform to invest with now.\nRegister and start earning with the link below\nhttp://www.google.com/search?q=site%3Azendforex.com']
       for message in messages:
         element.send_keys(message)
    
