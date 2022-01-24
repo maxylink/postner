@@ -59,7 +59,7 @@ while i<=50000:
     sleep(7)
     
     try:
-      driver.find_element_by_css_selector("div[class='rq0escxv l9j0dhe7 du4w35lb j83agx80 cbu4d94t pfnyh3mw d2edcug0 ph5uu5jm b3onmgus e5nlhep0 ecm0bbzt ri2l8tne gloz99to r516eku6 k83vx86k'] div div div[class='l9j0dhe7 du4w35lb j83agx80 pfnyh3mw taijpn5t bp9cbjyn owycx6da btwxx1t3 kt9q3ron ak7q8e6j isp2s0ed ri5dt5u2 rt8b4zig n8ej3o3l agehan2d sk4xxmp2 rq0escxv d1544ag0 tw6a2znq s1i5eluu tv7at329']").click()
+      driver.find_element_by_xpath("//div[@class='rq0escxv l9j0dhe7 du4w35lb j83agx80 cbu4d94t pfnyh3mw d2edcug0 ph5uu5jm b3onmgus e5nlhep0 ecm0bbzt ri2l8tne gloz99to r516eku6 k83vx86k']//div//div//span[@class='a8c37x1j ni8dbmo4 stjgntxs l9j0dhe7 ltmttdrg g0qnabr5'][normalize-space()='Join Group']").click()
 
     except NoSuchElementException: 
       sleep(2)
